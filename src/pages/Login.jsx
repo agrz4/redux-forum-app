@@ -6,7 +6,7 @@ import { asyncSetAuthUser } from '../states/authUser/action'
 import { useEffect } from 'react'
 import { asyncPreloadProcess } from '../states/isPreload/action'
 
-function Login () {
+function Login() {
   const { authUser } = useSelector((state) => state)
   const dispatch = useDispatch()
 
@@ -33,7 +33,7 @@ function Login () {
       justifyContent='center'
     >
       <Heading fontSize='4xl' mb={8} color='teal.500'>
-        Discussion Forum App
+        Discussion Forum App Developer
       </Heading>
       <Box
         w='full'
