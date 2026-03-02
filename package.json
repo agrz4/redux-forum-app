@@ -45,6 +45,7 @@
     "globals": "^16.5.0",
     "jsdom": "^28.1.0",
     "standard": "^17.1.2",
+    "start-server-and-test": "^2.1.5",
     "vite": "^7.2.4",
     "vitest": "^4.0.18"
   }
