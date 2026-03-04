@@ -18,7 +18,7 @@ import {
   asyncToggleUpVoteThread
 } from '../states/threads/action'
 
-function Homepage () {
+function Homepage() {
   const {
     threads = [],
     users = [],
@@ -76,7 +76,7 @@ function Homepage () {
         </Box>
         <Box>
           <Heading as='h2' fontSize='3xl' color='teal.900' mt='1rem'>
-            Diskusi Tersedia
+            Ruang Diskusi
           </Heading>
           <ThreadsList
             threads={threadList}
